@@ -9,6 +9,83 @@ tarefa
 <body>
     <form action="https://www.w3schools.com/action_page.php">
         <input type="date">
+        <br>
+        <h1>Dados de acesso:</h1>
+        <label for="usuario">usuario: </label><br>
+        <input type="text" id="usuario" name="usuario"><br>
+        <label for="senha">senha de acesso:</label><br>
+        <input type="text" id="senha" name="senha"><br>
     </form>
+    <form>
+        <h1>Dados Pessoais</h1>
+        <label for="nome">nome: </label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="end">endereco:</label><br>
+        <input type="text" id="end" name="end"><br>
+        <label for="numero">numero:</label><br>
+        <input type="text" id="numero" name="numero"><br>
+        <label for="compl">complemento:</label><br>
+        <input type="text" id="compl" name="compl"><br>
+    </form>
+    <label for="estado">estado:</label>
+<select id="estado" name="estado">
+<option value="São Paulo">São Paulo</option>
+<option value="Maranhão">Maranhão</option>
+<option value="Pernambuco">Pernambuco</option>
+<option value="Ceara">Ceara</option>
+</select>
+<br>
+<br>
+    <form action="/action_page.php">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+        <p>cidade:</p>
+        <option value="sorocaba">
+        <option value="votorantim">
+        <option value="itu">
+        <option value="piedade">
+        <option value="tatui">
+        <option value="itapetininga">
+        </option>
+        </datalist>
+        <input type="submit">
+        </form>
+        
+      <form>
+        <label for="cep">cep:</label><br>
+        <input type="cep" id="cep" name="cep"><br>
+      </form>
+      <br>
+      <form>
+        <h1>genero</h1>
+        <input type="radio" id="masculino" name="genero" value="masculino" >
+        <label for="masculino">masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">feminino</label><br>
+        <input type="radio" id="prefiro não falar" name="genero" value="prefiro não falar">
+        <label for="prefiro não falar">prefiro não falar</label><br>
+      </form>
+      <form>
+<h1>Curso:</h1>
+        <input type="checkbox" id="curso1" name="curso1" value="ADS">
+        <label for="curso1"> ADS</label><br>
+        <input type="checkbox" id="curso2" name="curso2" value="Jogos">
+        <label for="curso2"> Jogos</label><br>
+        <input type="checkbox" id="curso3" name="curso3" value="Gestão de TI">
+        <label for="curso3"> Gestão de TI</label>
+        <input type="checkbox" id="curso4" name="curso4" value="Banco de Dados">
+        <label for="curso4">Banco de Dados</label>
+        </form>
+        <br>
+        <form>
+            <h1>modelo</h1>
+            <input type="radio" id="Presencial" name="modelo" value="Presencial">
+            <label for="Presencial">Presencial</label><br>
+            <input type="radio" id="EAD" name="modelo" value="EAD">
+            <label for="EAD">EAD</label><br>
+            <input type="radio" id="semi presencial" name="modelo" value="semi presencial">
+            <label for="semi presencial">semi presencial</label><br>
+        </form>
+        
 </body>
 </html>
